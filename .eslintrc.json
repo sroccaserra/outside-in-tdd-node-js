@@ -1,0 +1,20 @@
+{
+  "extends": "standard",
+  "plugins": [
+    "standard",
+    "promise"
+  ],
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "indent": [
+      "error",
+      4
+    ],
+    "space-before-function-paren": [
+      "error",
+      "never"
+    ]
+  }
+}
